@@ -1,0 +1,62 @@
+'''
+Get the third character of s (index 2)
+output1 = s[2]
+
+# Get the fourth last character of s
+output2 = s[-4]
+
+# Get the first 3 characters of s
+output3 = s[:3]
+
+# Get every second character of s
+output4 = s[::2]
+
+# Get the last 3 characters of s
+output5 = s[-3:]
+
+# Get the reverse of s
+output6 = s[::-1]
+
+# course_code example: "24t1cs1001"
+# term is the digit after 't'
+t_index = course_code.index('t')
+course_term = int(course_code[t_index + 1])
+
+# year is the first two characters of course_code
+course_year = int(course_code[:2])
+'''
+'''
+# 1. Join word1 and word2 with a space
+output1 = word1 + " " + word2
+
+# 2. Join first four letters of word1 and last four letters of word2 with a hyphen
+output2 = word1[:4] + "-" + word2[-4:]
+
+# 3. Join word3 and n1 with a space (convert n1 to string)
+output3 = word3 + " " + str(n1)
+
+# 4. Hyphen repeated 50 times
+output4 = "-" * 50
+
+# 5. Hyphen repeated n2 times
+output5 = "-" * n2
+
+# 6. Repeat the number n1, n2 times (convert n1 to string)
+output6 = str(n1) * n2
+
+# 7. True if all three words are equal
+are_all_words_equal = (word1 == word2 == word3)
+
+# 8. True if word1 comes before word2 and word3 (lexicographically)
+is_word1_comes_before_other_two = (word1 < word2 and word1 < word3)
+
+# 9. True if word1 has the letter 'h' (case sensitive)
+has_h = ('h' in word1)
+
+# 10. True if word1 ends with 'a' or 'A'
+ends_with_a = (word1.endswith('a') or word1.endswith('A'))
+
+# 11. True if the sentence has the word 'python' (case insensitive)
+has_the_word_python = ('python' in sentence.lower())
+
+'''
