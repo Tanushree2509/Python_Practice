@@ -14,3 +14,6 @@ d = dict ()
 print (type(d))  # <class 'dict'>
 se = set ()
 print (type(se))  # <class 'set'>
+#Why is the output always class ?
+#Because in Python, everything is an object, and each object is an instance of a class.
+#When we use the constructor of a data type (like int(), float(), etc.), it creates an instance of that class.
