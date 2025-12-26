@@ -1,4 +1,4 @@
-def MergeSort(A,B):
+def merge(A,B):
     (m,n) = (len(A), len(B))
     (C,i,j,k) = ([],0,0,0)
     while k < m+n:
