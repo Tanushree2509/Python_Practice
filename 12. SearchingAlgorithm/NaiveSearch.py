@@ -1,0 +1,5 @@
+def navieSearch(v,l):
+    for x in l:
+        if v==x:
+            return (True)
+    return (False)
