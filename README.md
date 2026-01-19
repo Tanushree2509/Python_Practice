@@ -1,5 +1,5 @@
 # Python_Practice
-## 📚 DSA Topics in Order
+## 📚 Topics in Order
 
 1. IntroToAlgorithm
 2. Conditionals (Part 1)
@@ -13,4 +13,3 @@
 10. BasicPandas & Numpy
 11. SortingAlgorithm
 12. SearchingAlgorithm
-13. mytext.txt
