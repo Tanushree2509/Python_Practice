@@ -7,7 +7,7 @@ def LCW(u,v):
       for r in range (m-1, -1, -1):
          if u[r] == v[c]:
             lcw[r,c] = 1 + lcw[r+1, c+1]
-         else
+         else:
             lcw[r,c] = 0
          if lcw[r,c] > maxlcw:
             maxlcw = lcw[r,c]
