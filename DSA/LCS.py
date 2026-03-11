@@ -6,6 +6,6 @@ def LCS(u,v):
       for r in range (m-1, -1, -1):
          if u[r] == v[c]:
             lcs[r,c] = 1 + lcs[r+1, c+1]
-         else
+         else:
             lcs[r,c] = max (lcs[r+1, c], lcs[r, c+1])
    return (lcs[0,0])
