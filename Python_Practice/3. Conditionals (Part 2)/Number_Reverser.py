@@ -1,3 +1,4 @@
+"""
 #Reversing a number
 num = int (input("Enter a number: "))
 absNum= abs(num)
@@ -28,3 +29,7 @@ class Solution:
         sign = -1 if x < 0 else 1
         rev = int(str(abs(x))[::-1]) * sign
         return rev if -2**31 <= rev <= 2**31 - 1 else 0
+"""
+i = int(input("Enter a number:"))
+s = str(i)
+print (s[::-1])
