@@ -2,7 +2,7 @@ def find_kmp(t, p):
    n, m = len(t), len(p)
    if m ==0:
       return 0 #pattern is empty
-   fail = kmp_fail; (p) #preprocessing
+   fail = kmp_fail(p) #preprocessing
    j = 0 #indec into text
    k = 0 #index into pattern
    while j < n :
